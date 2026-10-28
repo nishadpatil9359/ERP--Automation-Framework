@@ -21,13 +21,11 @@ def create_employee(page):
 
     # Name
     page.locator(
-        'input[name="name"]'
+    "#create-employee-modal input[name='name']"
     ).fill(employee_name)
 
     # Gender
-    page.locator(
-        'input[name="gender"]'
-    ).fill("Male")
+    page.locator("#edit_employee_gender").select_option(label="Male")
 
     # Phone
     page.locator(

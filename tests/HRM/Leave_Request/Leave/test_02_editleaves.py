@@ -1,7 +1,7 @@
 import time
 
 from utils.navigation import open_leave
-from test_01_leave import create_leave
+from tests.HRM.Leave_Request.Leave.test_01_leave import create_leave
 
 
 def update_leave(page):

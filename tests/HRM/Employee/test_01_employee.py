@@ -85,7 +85,7 @@ def create_employee(page):
     ).click()
 
     page.wait_for_timeout(1500)
-
+ 
     print(
         f"✅ Employee Created : {employee_name}"
     )
